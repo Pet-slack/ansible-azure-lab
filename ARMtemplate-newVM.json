@@ -123,7 +123,7 @@
                     "id": "[resourceId('Microsoft.Compute/availabilitySets', 'myAvSet')]"
                 },
                 "hardwareProfile": {
-                    "vmSize": "Standard_A0"
+                    "vmSize": "Standard_D2_V2"
                 },
                 "storageProfile": {
                     "imageReference": {
@@ -145,12 +145,12 @@
                 },
                 "osProfile": {
                     "computerName": "mySecondVm",
-                    "adminUsername": "lab-user",
+                    "adminUsername": "petslack",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false
                     },
                     "secrets": [],
-    				"adminPassword": "Microsoft123!"				
+    				"adminPassword": "Password_2020"				
                 },
                 "networkProfile": {
                     "networkInterfaces": [
