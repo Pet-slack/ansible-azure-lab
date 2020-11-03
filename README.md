@@ -249,7 +249,7 @@ sudo yum install -y python-devel openssl-devel git gcc epel-release
 **Step 2.** Install Azure Python SDK for Ansible. Additionally, we will install the package DNS Python so that we can do DNS checks in Ansible playbooks (to make sure that DNS names are not taken). Some Python versions require as well the packaging module to be installed separately.
 
 ```
-sudo pip install ansible[azure]
+sudo pip install ansible[azure]==2.8.6
 ```
 
 ```
